@@ -1,4 +1,8 @@
-fun main() {
+fun greetMessage(): String {
     val message = listOf("Hello", "from", "Kotlin", "on", "Node.js!")
-    println("Hello from Kotlin on Node.js! $message")
+    return "Hello from Kotlin on Node.js! $message"
+}
+
+fun main() {
+    println(greetMessage())
 }
